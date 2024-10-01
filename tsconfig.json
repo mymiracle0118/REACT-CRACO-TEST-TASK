@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "baseUrl": "./",
         "target": "es5",
         "module": "commonjs",
         "allowJs": true,
@@ -13,6 +14,17 @@
         "downlevelIteration": true,
         "declaration": true,
         "noEmit": true,
+        "paths": {
+            "@craco/*": [
+                "node_modules/@craco/*"
+            ]
+        }
     },
-    "include": ["packages/**/*"]
+    "include": [
+        "packages/**/*",
+        "node_modules/@craco/types/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }

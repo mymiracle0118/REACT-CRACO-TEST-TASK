@@ -29,6 +29,8 @@
   },
   "prettier": "@dilanx/config/prettier",
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
     "@dilanx/config": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
@@ -38,5 +40,8 @@
     "lerna": "^6.5.1",
     "playwright": "^1.33.0",
     "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.26.2"
   }
 }
