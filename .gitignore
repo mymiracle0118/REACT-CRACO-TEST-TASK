@@ -1,0 +1,15 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled
+dist
+
+# dependencies
+node_modules
+packages/debug
+
+# misc
+.DS_Store
+/.idea
+npm-debug.log*
+lerna-debug.log*
+*.tgz
